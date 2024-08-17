@@ -68,10 +68,8 @@ Poe Bot: https://poe.com/VirusTotal
 
 Here’s an example of how to use the bot to check a URL:
 
-```python
-response = check_url_safety("example.com")
-print(json.dumps(response, indent=2))
-```
+![image](https://github.com/user-attachments/assets/087d216a-af81-4748-b945-1a1797653364)
+
 
 ### Contributing
 
