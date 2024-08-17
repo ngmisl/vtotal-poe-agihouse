@@ -1,7 +1,3 @@
-Here’s a description you can use for your GitHub repository:
-
----
-
 # VirusTotal URL Checker Bot
 
 This repository contains a Python-based bot that uses the [VirusTotal API](https://www.virustotal.com/) to analyze URLs and retrieve detailed safety information. The bot is designed to integrate with [Modal](https://modal.com/) and [FastAPI-Poe](https://github.com/poe-api/fastapi-poe) to provide a robust, serverless solution for URL safety checks.
