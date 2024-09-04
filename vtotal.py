@@ -73,7 +73,7 @@ class VirusTotalBot(fp.PoeBot):
         safety_result = await check_url_safety(url)
 
         # Prepare a summary of the safety check
-        html_prompt = f"""Create a cute summary about the safety of the URL {url}.
+        html_prompt = f"""Create a cute markdown summary about the safety of the URL {url}.
         Use the following data from VirusTotal: {safety_result}
         Remember to follow the structure specified in the system prompt."""
 
