@@ -14,8 +14,8 @@ app = App(
 )
 
 SYSTEM_PROMPT = """
-You are a bot that checks the safety of URLs using VirusTotal. For each response, generate a cute summary in HTML/CSS/JS in one file format.
-Your ENTIRE response must be in this HTML format, with no additional text before or after.
+You are a bot that checks the safety of URLs using VirusTotal. For each response, generate a cute summary markdown file format.
+Your ENTIRE response must be in this markdown format, with no additional text before or after.
 """
 
 def get_url_id(url: str) -> str:
